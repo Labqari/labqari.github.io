@@ -630,6 +630,15 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     transform:scale(1.5);
 }/*.item img*/
 
+.custom-buyer {
+    width: 100%; /* Increase the width as needed */
+}
+
+/* Optional: Prevent the image from stretching vertically */
+.custom-buyer .item img {
+    height: auto;
+}
+
 /*.isotope-overlay*/
 .isotope-overlay{
     position:absolute;
